@@ -1,6 +1,6 @@
 @font-face {
     font-family:Digital7Mono-B1g5;
-    src: url("font-style/Digital7Mono-B1g5.ttf");
+    src: url("fontstyle/Digital7Mono-B1g5.ttf");
 }
 .frame{
     margin-top: 50px;
@@ -9,6 +9,7 @@
     width:380px;
     height:auto;
     background:linear-gradient(to right, #141e30, #243b55);
+    fo
 }
 
 /*.form-control-lg{
