@@ -1,0 +1,99 @@
+@font-face {
+    font-family:Digital7Mono-B1g5;
+    src: url("D:/SITH/HTML/font/Digital7Mono-B1g5.ttf");
+}
+.frame{
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width:380px;
+    height:auto;
+    background:linear-gradient(to right, #141e30, #243b55);
+}
+
+/*.form-control-lg{
+   margin-top: 10px;
+   height: 150px; 
+   border-radius: 5%;
+}*/
+
+#maininput{
+    margin-top: 10px;
+    border-bottom: none;
+    font-family:Digital7Mono-B1g5;
+    font-size: 20px;
+    text-align: right; 
+    border-radius: 5px 5px 0 0;
+}
+
+#subinput{
+    border-top: none;
+    height: 80px;
+    text-align: right; 
+    border-radius: 0;
+    font-family:Digital7Mono-B1g5;
+    font-size: 35px;
+    border-radius: 0 0 5px 5px;
+}
+
+#subinput:focus{
+    outline: none ;
+}
+
+#maininput:focus{
+    outline: none;
+}
+
+.btn:focus{
+    outline:none;
+}
+
+/*
+#inputbox{
+    font-family:Digital7Mono-B1g5;
+    font-size: 35px;
+    text-align: right;
+    border-radius: 5%;
+}*/
+
+#numbers{
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.offcanvas-title{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid #4caf50;
+    margin-bottom: 50px;
+    padding: 13px 0;
+    color:white;
+}
+
+.btn{
+    background:linear-gradient(to right, #e53935, #e35d5b); 
+    width: 80px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color:white;
+}
+
+#delete{
+    background: transparent;
+    margin-top: 400px;
+    position: fixed;
+}
+
+#delete:hover{
+    color:red;
+}
+
+.his{
+    font-family:Digital7Mono-B1g5;
+    font-size: 20px;
+    border: 2px solid white;
+    color:white;
+    text-align: right;
+}
+
