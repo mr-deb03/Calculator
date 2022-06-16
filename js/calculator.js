@@ -68,7 +68,7 @@ function history()
    var history="<div>";
    for(let i=0;i<eq.length;i++)
    {
-      history+="<br><br><div class='his'><p>"+eq[i]+"</p><p>"+answers[i]+"</p></div><br>";
+      history+="<div class='his'><p>"+eq[i]+"</p><p>"+answers[i]+"</p></div><br>";
    }
    history+="</div>";
    showHistory.innerHTML=history; 
