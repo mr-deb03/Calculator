@@ -1,6 +1,6 @@
 @font-face {
-    font-family:Digital7Mono-B1g5;
-    src: url("fontstyle/Digital7Mono-B1g5.ttf");
+    font-family: Digital7Mono;
+    src: url(fonts/Digital7Mono.ttf);
 }
 .frame{
     margin-top: 50px;
@@ -20,7 +20,7 @@
 #maininput{
     margin-top: 10px;
     border-bottom: none;
-    font-family:Digital7Mono-B1g5;
+    font-family: Digital7Mono;
     font-size: 20px;
     text-align: right; 
     border-radius: 5px 5px 0 0;
@@ -31,7 +31,7 @@
     height: 80px;
     text-align: right; 
     border-radius: 0;
-    font-family:Digital7Mono-B1g5;
+    font-family: Digital7Mono;
     font-size: 35px;
     border-radius: 0 0 5px 5px;
 }
