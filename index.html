@@ -14,14 +14,14 @@
         <div class="container frame">
             <div id="input">
                 <input type="text" class="form-control form-control-lg" id="maininput" readonly>
-                <input type="text" class="form-control form-control-lg" id="subinput" value="0">
+                <input type="text" class="form-control form-control-lg" id="subinput">
                <!--<input type="text" class="form-control form-control-lg" id="inputbox" value="0">-->
             </div><br>
             <div id="numbers">
                 <button  class="btn  btn-lg" onclick="disable()" style="width: 110px;">ON/OFF</button><br>
                 <button  class="btn  btn-lg" onclick="allcleardisplay()">AC</button>
                 <button  class="btn  btn-lg" onclick="cleardisplay()">C</button>
-                <button  class="btn  btn-lg"><i class="fa-solid fa-backward"></i></button>
+                <button  class="btn  btn-lg" onclick="Dele()"><i class="fa-solid fa-delete-left"></i></button>
                 <button  class="btn  btn-lg" data-bs-toggle="offcanvas" data-bs-target="#history">HIST</button>
                 <button  class="btn  btn-lg" onclick="putvalue('7')">7</button>
                 <button  class="btn  btn-lg" onclick="putvalue('8')">8</button>
@@ -43,14 +43,11 @@
             <div class="offcanvas offcanvas-end" id="history" style="background: linear-gradient(to left, #141e30, #243b55);">
                 <div class="offcanvas-header">
                   <h1 class="offcanvas-title">History</h1>
-                  <button type="button" class="btn-close btn-danger" data-bs-dismiss="offcanvas"></button>
+                  <button class="btn" id="delete" onclick="clearHistory()"><i class="fa-solid fa-trash"></i></button>
+                  <button  class="btn-close btn-light" data-bs-dismiss="offcanvas"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <div id="del">
-                    <button class="btn" id="delete" onclick="clearHistory()"><i class="fa-solid fa-trash"></i></button></div>
-                    <div id="History">
-                        
-                    </div>
+                    <div id="History"></div>
                 </div>
             </div>
         </div>
